@@ -10,6 +10,13 @@
         "wdth" 100;
 }
 
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 /* banner section designed */
 .banner {
     background:
@@ -49,3 +56,30 @@
     font-weight: bolder;
 }
 
+/* discount section start  */
+.discount-container {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.off-title {
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 40px;
+}
+
+.off-for-title {
+    font-size: 24px;
+    font-weight: 500px;
+    color: #FF0000;
+    margin-bottom: 40px;
+}
+
+.category-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
