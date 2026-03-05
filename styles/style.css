@@ -178,7 +178,7 @@
 
 }
 
-/* shared style with portfolio-gift-title  */
+/* shared style with portfolio-gift-title */
 .best-offer-title {
     font-size: 24px;
     font-weight: 500;
@@ -187,7 +187,7 @@
 
 }
 
-/* shared sytle with portfolio-title  */
+/* shared style with portfolio-title  and subscribe-title   */
 .offer-title {
     font-size: 48px;
     font-weight: bolder;
@@ -196,7 +196,7 @@
 
 }
 
-/* shared style with portfolio-description  */
+/* shared style with portfolio-description and subscribe description  */
 .offer-descriotpion {
     font-size: 20px;
     font-weight: lighter;
@@ -232,5 +232,44 @@
 .portfolio-img {
     margin-bottom: 24px;
     display: flex;
-    gap:30px;
+    gap: 30px;
+}
+
+.subscribe-container {
+    max-width: 1400px;
+    height: 600px;
+    margin: auto;
+    background:
+        linear-gradient(rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.1));
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.inputs {
+    margin-right: 250px;
+}
+
+.input-email {
+    width: 500px;
+    padding: 25px 0px 25px 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: #eee;
+    border-radius: 40px 0 0 40px;
+    position: relative;
+}
+
+.input-button {
+    background-color: red;
+    color: white;
+    padding: 24px 56px;
+    font-size: 20px;
+    border: none;
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
 }
