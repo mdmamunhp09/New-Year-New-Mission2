@@ -196,7 +196,7 @@
 
 }
 
-/* shared style with portfolio-description and subscribe description  */
+/* shared style with portfolio-description and subscribe description and holyday-description section */
 .offer-descriotpion {
     font-size: 20px;
     font-weight: lighter;
@@ -218,11 +218,80 @@
     padding: 40px
 }
 
+/* holiday section start  */
+.holydays-container {
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 120px;
+
+}
+
+.holyday-column1 {
+    text-align: center;
+}
+
+.holyday-functional-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 28px;
+
+}
+
+.holyday-title {
+    font-size: 72px;
+    font-weight: bolder;
+    margin-bottom: 28px;
+}
+
+.holidays-span {
+    color: #FF0000;
+}
+
+.holyday-img {
+    position: relative;
+    margin-top: 200px;
+    height: 600px;
+    
+
+}
+
+.red-bg {
+    width:100%;
+    position:absolute;
+    bottom:0%;
+    z-index: 1;
+
+}
+
+.gift-box {
+    position:absolute;
+    bottom:0;
+    left:150px;
+    z-index:2;
+
+}
+
+.girl {
+    position:absolute;
+    bottom:242px;
+    right:0;
+    z-index:2;
+}
+.discount {
+  position: absolute;
+  bottom: 300px;
+  right: 20%;
+  z-index: 3;
+    
+}
+
+
 /* portfolio section start  */
 .portfolio-container {
     max-width: 1400px;
     margin: auto;
     margin-top: 120px;
+    margin-bottom: 100px;
 }
 
 .portfolio {
@@ -230,10 +299,13 @@
 }
 
 .portfolio-img {
-    margin-bottom: 24px;
+    margin-bottom: 40px;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    /* gap: 30px; */
 }
+
+/* subscribe section start  */
 
 .subscribe-container {
     max-width: 1400px;
@@ -272,4 +344,48 @@
     border: none;
     position: absolute;
     border-radius: 0px 50px 50px 0px;
+}
+
+/* footer section start  */
+footer {
+    background-color: #070211;
+    padding: 140px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+
+.footer-contact-number {
+    margin-bottom: 10px;
+}
+
+.footer-column>p>i {
+    margin-right: 10px;
+}
+
+.footer-column,
+.copywrite {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.line {
+    border-top: 1px solid #2a2a4a;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: space-around;
 }
